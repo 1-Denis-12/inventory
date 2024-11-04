@@ -24,10 +24,42 @@
 }
 
 .manu_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
     width: 250px;
     height: 300px;
     background-color: rgb(182, 181, 181);
     margin: 50px;
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(122, 119, 119, 0.5) ;
+}
+
+.manu_container:hover {
+    width: 255px;
+    height: 305px;
+    margin: 50px 50px 45px 45px;
+}
+
+.manu_container h2 {
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+.manu_container button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: orchid;
+    font-size: 20px;
+}
+
+.manu_container button:hover {
+    background-color: rgb(219, 96, 215);
+    border: 3px solid rgb(219, 96, 215);
 }
