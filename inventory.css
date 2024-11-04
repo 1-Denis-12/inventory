@@ -1,0 +1,33 @@
+#nav {
+    display: flex;
+    align-items: center;
+}
+
+#nav a{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.active {
+    background-color:orchid;
+}
+
+#home_manu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.manu_container {
+    width: 250px;
+    height: 300px;
+    background-color: rgb(182, 181, 181);
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(122, 119, 119, 0.5) ;
+}
